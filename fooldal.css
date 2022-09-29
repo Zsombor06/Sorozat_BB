@@ -1,8 +1,12 @@
 html {
-    background: url(images/asd.jpg) no-repeat.
+    background: url(images/asd.jpg) no-repeat
     center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+    .navbar {
+        font-family: 'Abyssinica SIL', serif;
     }
