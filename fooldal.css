@@ -6,14 +6,13 @@ html {
     -o-background-size: cover;
     background-size: cover;
     }
-    @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
-    .navbar {
-        font-family: 'Abyssinica SIL', serif;
-    }
-     #logo {
-        width: 120px;
-    }
-    #a 
-    {float: right;
-        padding: 110px;
-    width: 500px}
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+#navbar-logo {
+    width: 120px;
+}
+
+
+body{
+    overflow-x: hidden;
+}
