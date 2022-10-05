@@ -9,7 +9,7 @@ html {
 }
 
 
-.kontener{
+.kontener, .kontener2{
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ html {
 }
 
 #temavalasztas{
-
+    font-size: 20px;
 }
 
 
@@ -36,6 +36,18 @@ html {
     overflow-x: hidden;
 }
 
+#alahuzas{
+    text-decoration: underline;
+}
+
 #p_csapat{
-    font-size:medium;
+    font-size: 30px;
+}
+
+#bb-bevezeto{
+    height: 60vh;
+    background-image: url("images/bb-bevezeto.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
 }
