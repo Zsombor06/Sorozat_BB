@@ -2,7 +2,9 @@
 html {
     
     }
-
+body{
+    overflow-x: hidden;
+}
 
 #navbar-logo {
     width: 70px;
@@ -35,6 +37,7 @@ html {
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #alahuzas{
@@ -51,4 +54,5 @@ html {
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
