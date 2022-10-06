@@ -16,10 +16,14 @@
 }
 
 #bevezeto{
-    height: 80vh;
+    height: 60vh;
     background-image: url("images/karakterek.jpg");
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
     overflow-y: hidden;
+}
+
+.karakter{
+    border-radius: 2%;
 }
