@@ -1,0 +1,37 @@
+#navbar-logo {
+    width: 70px;
+}
+.kontener, .kontener2{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.atlatszo{
+    background-color: rgba(168, 168, 168, 0.346);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#p-temavalasztas{
+    font-size: 20px;
+}
+
+
+#bevezeto{
+    height: 60vh;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+   
+    overflow-x: hidden;
+}
+#alahuzas{text-decoration: underline;}
+#kep{ 
+    margin-left: auto;
+    height: 500px;
+    width: auto;
+  
+}
