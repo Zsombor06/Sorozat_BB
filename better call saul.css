@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=Rubik:wght@300&display=swap');
 #navbar-logo {
     width: 70px;
 }
@@ -30,6 +31,12 @@
 
 }
 
-#bcs-bevezetes{
-    
+#leiras{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+
+#alcim{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
