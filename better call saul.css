@@ -17,7 +17,7 @@
 
 #bevezeto{
     height: 70vh;
-    background-image: url("images/bettercallsaul.jpg");
+    background-image: url("images/bettercallsaul2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -28,4 +28,8 @@
 #p-bevezetes{
     font-size: 28px;
 
+}
+
+#bcs-bevezetes{
+    
 }
