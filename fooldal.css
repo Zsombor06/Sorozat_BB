@@ -9,8 +9,15 @@ body{
 }
 
 
-.kontener, .kontener2{
+.kontener{
     height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontener2{
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,10 +53,11 @@ body{
 }
 
 #bb-bevezeto{
-    height: 70vh;
-    background-image: url("images/bb-bevezeto.jpg");
+    height: 90vh;
+    background-image: url("images/bb-bevezeto2.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     overflow-x: hidden;
     overflow-y: hidden;
 }

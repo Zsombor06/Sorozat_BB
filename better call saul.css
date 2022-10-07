@@ -3,21 +3,21 @@
 }
 
 .kontener{
-    height: 60vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .atlatszo{
-    background-color: rgba(168, 168, 168, 0.419);
+    background-color: rgba(0, 0, 0, 0.527);
     padding: 10px;
     border-radius: 10px;
 }
 
 #bevezeto{
-    height: 70vh;
-    background-image: url("images/bettercallsaul2.jpg");
+    height: 90vh;
+    background-image: url("images/bettercallsaul4.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
