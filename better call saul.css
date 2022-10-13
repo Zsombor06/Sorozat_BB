@@ -56,5 +56,17 @@
     background-size: cover;
     float: left;
     margin: 0px 50px 30px 0px;
-    shape-outside: circle(50%) margin-box
+    shape-outside: circle(50%) margin-box;
+}
+
+.circle2{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: url(images/bettercallsaul/nachovarga.jpg) center center;
+    background-size: cover;
+    float: right;
+    margin: 0px 0px 50px 30px;
+    shape-outside: circle(50%) margin-box;
 }
