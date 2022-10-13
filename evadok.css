@@ -29,9 +29,20 @@
     overflow-x: hidden;
 }
 #alahuzas{text-decoration: underline;}
-#kep{ 
+.kep{ 
     margin-left: auto;
     height: 500px;
     width: auto;
-  
+    display: block;
+    
+}
+#kep2{display: block;
+    margin-right: auto;}
+    
+.karakter{
+    border-radius: 2%;
+}
+#kar-leiras{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
 }
