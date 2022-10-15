@@ -82,13 +82,24 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(images/bettercallsaul/nachovarga.jpg) center center;
+    background: url(images/bettercallsaul/Kim_Wexler.webp) center center;
     background-size: cover;
     float: right;
     margin: 0px 0px 30px 50px;
     shape-outside: circle(50%) margin-box;
 }
 
+.circle5{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: url(images/bettercallsaul/nachovarga.jpg) center center;
+    background-size: cover;
+    float: left;
+    margin: 0px 50px 30px 0px;
+    shape-outside: circle(50%) margin-box;
+}
 
 
 
