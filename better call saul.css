@@ -61,7 +61,7 @@
     background: url(images/bettercallsaul/hectorsalamanca.jpg) center center;
     background-size: cover;
     float: right;
-    margin: 0px 0px 30px 50px;
+    margin: 2px 0px 30px 50px;
     shape-outside: circle(50%) margin-box;
 }
 
@@ -73,7 +73,7 @@
     background: url(images/bettercallsaul/HowardHamlin.webp) center center;
     background-size: cover;
     float: left;
-    margin: 0px 50px 30px 0px;
+    margin: 2px 50px 30px 0px;
     shape-outside: circle(50%) margin-box;
 }
 
@@ -85,7 +85,7 @@
     background: url(images/bettercallsaul/Kim_Wexler.webp) center center;
     background-size: cover;
     float: right;
-    margin: 0px 0px 30px 50px;
+    margin: 18px 0px 30px 50px;
     shape-outside: circle(50%) margin-box;
 }
 
@@ -97,12 +97,49 @@
     background: url(images/bettercallsaul/nachovarga.jpg) center center;
     background-size: cover;
     float: left;
-    margin: 0px 50px 30px 0px;
+    margin: 15px 50px 30px 0px;
     shape-outside: circle(50%) margin-box;
 }
 
+.circle6{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: url(images/bettercallsaul/Werner_Ziegler.webp) center center;
+    background-size: cover;
+    float: right;
+    margin: 2px 0px 30px 50px;
+    shape-outside: circle(50%) margin-box;
+}
 
+.circle7{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: url(images/bettercallsaul/lalo_salamanca.webp) center center;
+    background-size: cover;
+    float: left;
+    margin: 30px 50px 30px 0px;
+    shape-outside: circle(50%) margin-box;
+}
 
+.circle8{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: url(images/bettercallsaul/Marion.webp) center center;
+    background-size: cover;
+    float: right;
+    margin: 50px 0px 10px 50px;
+    shape-outside: circle(50%) margin-box;
+}
+
+.utolso-p{
+    margin-bottom: 0px;
+}
 
 
 
