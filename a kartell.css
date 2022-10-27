@@ -8,7 +8,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: playing;
 }
+    
+    @keyframes slidein {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
 
 .atlatszo{
     background-color: rgba(0, 0, 0, 0.527);
@@ -28,6 +42,7 @@
 
 #p-bevezetes{
     font-size: 28px;
+    top: 0px;
 
 }
 
@@ -57,3 +72,59 @@
 
 #fabio
     {height: 620px;}
+
+
+ /*
+
+#asd {    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: playing;
+}
+    
+    @keyframes slidein {
+      0% {
+        transform: translateX(0%);
+      }
+      50% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
+#asdasd {    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count:playing;
+}
+    
+    @keyframes slidein {
+      0% {
+        transform: translateX(-50%);
+      }
+      50% {
+        transform: translateX(50%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
+#asdasdasd {    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: playing;
+}
+    
+    @keyframes slidein {
+      0% {
+        transform: translateX(-100%);
+      }
+      50% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
+    */

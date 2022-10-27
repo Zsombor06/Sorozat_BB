@@ -3,14 +3,25 @@
     width: 70px;
 }
 .kontener, .kontener2{
-    height: 50vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: playing;
 }
-
+    
+    @keyframes slidein {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+    
 
 .atlatszo{
     background-color: rgba(168, 168, 168, 0.346);
@@ -19,7 +30,7 @@
 }
 
 #p-temavalasztas{
-    font-size: 20px;
+    font-size: 28px;
 }
 
 
