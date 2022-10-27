@@ -76,6 +76,12 @@ body{
 
 #Barni
     {height: 620px;}
+    
+#link{
+    text-decoration: none;
+}
+
+
 
 #link:hover{
     text-decoration: underline;
