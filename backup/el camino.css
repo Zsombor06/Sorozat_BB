@@ -18,7 +18,7 @@
 
 #bevezeto{
     height: 90vh;
-    background-image: url("images/bettercallsaul4.jpg");
+    background-image: url("images/ec1.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -41,16 +41,18 @@
     font-weight: bold;
 }
 
+
+
 .circle1{
     display: block;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(images/bettercallsaul/ChuckS1.webp) center center;
+    background: url(images/pete-badger.webp) center center;
     background-size: cover;
     float: left;
-    margin: 0px 50px 30px 0px;
-    shape-outside: circle(50%) margin-box;
+    margin: 30px 50px 0px 0px;
+    shape-outside: circle(50%) margin-box
 }
 
 .circle2{
@@ -58,11 +60,11 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(images/bettercallsaul/hectorsalamanca.jpg) center center;
+    background: url(images/jesse.jpg) center center;
     background-size: cover;
     float: right;
-    margin: 2px 0px 30px 50px;
-    shape-outside: circle(50%) margin-box;
+    margin: 20px 0px 30px 50px;
+    shape-outside: circle(50%) margin-box
 }
 
 .circle3{
@@ -70,11 +72,11 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(images/bettercallsaul/HowardHamlin.webp) center center;
+    background: url(images/a1.jpg) center center;
     background-size: cover;
-    float: left;
-    margin: 2px 50px 30px 0px;
-    shape-outside: circle(50%) margin-box;
+    float: right;
+    margin: 60px 0px 50px 30px;
+    shape-outside: circle(50%) margin-box
 }
 
 .circle4{
@@ -82,11 +84,11 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(images/bettercallsaul/Kim_Wexler.webp) center center;
+    background: url(images/edgalbraith.webp) center center;
     background-size: cover;
-    float: right;
-    margin: 18px 0px 30px 50px;
-    shape-outside: circle(50%) margin-box;
+    float: left;
+    margin: 44px 50px 30px 0px;
+    shape-outside: circle(50%) margin-box
 }
 
 .circle5{
@@ -94,11 +96,11 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(images/bettercallsaul/nachovarga.jpg) center center;
+    background: url(images/jesse2.webp) center center;
     background-size: cover;
-    float: left;
-    margin: 15px 50px 30px 0px;
-    shape-outside: circle(50%) margin-box;
+    float: right;
+    margin: 20px 0px 50px 30px;
+    shape-outside: circle(50%) margin-box
 }
 
 .circle6{
@@ -106,37 +108,21 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(images/bettercallsaul/Werner_Ziegler.webp) center center;
-    background-size: cover;
-    float: right;
-    margin: 2px 0px 30px 50px;
-    shape-outside: circle(50%) margin-box;
-}
-
-.circle7{
-    display: block;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background: url(images/bettercallsaul/lalo_salamanca.webp) center center;
+    background: url(images/jane.webp) center center;
     background-size: cover;
     float: left;
-    margin: 30px 50px 30px 0px;
-    shape-outside: circle(50%) margin-box;
+    margin: 0px 50px 30px 0px;
+    shape-outside: circle(50%) margin-box
 }
 
-.circle8{
+.circle-ec{
     display: block;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(images/bettercallsaul/Marion.webp) center center;
+    background: url(images/1968-el-camino.jpg) center center;
     background-size: cover;
-    float: right;
-    margin: 50px 0px 10px 50px;
-    shape-outside: circle(50%) margin-box;
-}
-
-.utolso-p{
-    margin-bottom: 0px;
+    float: left;
+    margin: 0px 50px 30px 0px;
+    shape-outside: circle(50%) margin-box
 }

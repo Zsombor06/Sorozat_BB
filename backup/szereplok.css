@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=Rubik:wght@300&display=swap');
+#navbar-logo {
+    width: 70px;
+}
+
+.kontener{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atlatszo{
+    background-color: rgba(0, 0, 0, 0.389);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#bevezeto{
+    height: 90vh;
+    background-image: url("images/karakterek.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.karakter{
+    border-radius: 2%;
+}
+
+
+
+#href{
+    text-decoration: none;
+}
+
+#nev{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+#kar-leiras{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
