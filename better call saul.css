@@ -52,6 +52,10 @@
     margin: 0px 50px 30px 0px;
     shape-outside: circle(50%) margin-box;
 }
+.circle1:hover{
+    transform: scale(200%);
+    transition-duration: 1s;
+}
 
 .circle2{
     display: block;
@@ -63,6 +67,10 @@
     float: right;
     margin: 2px 0px 30px 50px;
     shape-outside: circle(50%) margin-box;
+}
+.circle2:hover{
+    transform: scale(200%);
+    transition-duration: 1s;
 }
 
 .circle3{
@@ -76,6 +84,10 @@
     margin: 2px 50px 30px 0px;
     shape-outside: circle(50%) margin-box;
 }
+.circle3:hover{
+    transform: scale(200%);
+    transition-duration: 1s;
+}
 
 .circle4{
     display: block;
@@ -87,6 +99,10 @@
     float: right;
     margin: 18px 0px 30px 50px;
     shape-outside: circle(50%) margin-box;
+}
+.circle4:hover{
+    transform: scale(200%);
+    transition-duration: 1s;
 }
 
 .circle5{
@@ -100,6 +116,10 @@
     margin: 15px 50px 30px 0px;
     shape-outside: circle(50%) margin-box;
 }
+.circle5:hover{
+    transform: scale(200%);
+    transition-duration: 1s;
+}
 
 .circle6{
     display: block;
@@ -111,6 +131,10 @@
     float: right;
     margin: 2px 0px 30px 50px;
     shape-outside: circle(50%) margin-box;
+}
+.circle6:hover{
+    transform: scale(200%);
+    transition-duration: 1s;
 }
 
 .circle7{
@@ -124,6 +148,10 @@
     margin: 30px 50px 30px 0px;
     shape-outside: circle(50%) margin-box;
 }
+.circle7:hover{
+    transform: scale(200%);
+    transition-duration: 1s;
+}
 
 .circle8{
     display: block;
@@ -135,6 +163,10 @@
     float: right;
     margin: 50px 0px 10px 50px;
     shape-outside: circle(50%) margin-box;
+}
+.circle8:hover{
+    transform: scale(200%);
+    transition-duration: 1s;
 }
 
 .utolso-p{
