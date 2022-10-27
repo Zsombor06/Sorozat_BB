@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=Rubik:wght@300&display=swap');
+#navbar-logo {
+    width: 70px;
+}
+.kontener, .kontener2{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.atlatszo{
+    background-color: rgba(168, 168, 168, 0.346);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#p-temavalasztas{
+    font-size: 20px;
+}
+
+
+#bevezeto{
+    height: 60vh;
+    background-image: url("images/backgroundVP.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#feher{color: white;}
