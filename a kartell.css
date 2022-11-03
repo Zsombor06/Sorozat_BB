@@ -1,80 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=Rubik:wght@300&display=swap");
 #navbar-logo {
-    width: 70px;
+  width: 70px;
 }
 
-.kontener{
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.kontener {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: playing;
-}
-    
-    @keyframes slidein {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0%);
-      }
-    }
-
-
-.atlatszo{
-    background-color: rgba(0, 0, 0, 0.527);
-    padding: 10px;
-    border-radius: 10px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: playing;
 }
 
-#bevezeto{
-    height: 90vh;
-    background-image: url("images/kartell/kartellbevezeto.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    overflow-x: hidden;
-    overflow-y: hidden;
+@keyframes slidein {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
-#p-bevezetes{
-    font-size: 28px;
-    top: 0px;
-
+.atlatszo {
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.profilkep{
-    border: 2px solid black;
-    border-radius: 8px;
+#bevezeto {
+  height: 90vh;
+  background-image: url("images/kartell/kartellbevezeto.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-#alcim{
-    font-family: 'Rubik', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
+#p-bevezetes {
+  font-size: 28px;
+  top: 0px;
 }
 
-#tag-leiras{
-    font-size: 20px;
+.profilkep {
+  border: 2px solid black;
+  border-radius: 8px;
 }
 
-#nev{
-    border-bottom: 2px solid black;
+#alcim {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
 }
 
-#leiras{
-    font-family: 'Jost', sans-serif;
-    font-size: 20px; 
+#tag-leiras {
+  font-size: 20px;
 }
 
-#fabio
-    {height: 620px;}
+#nev {
+  border-bottom: 2px solid black;
+}
 
+#leiras {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+}
 
- /*
+#fabio {
+  height: 620px;
+}
+
+.circle1 {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: url(images/kartell/Max.jpg) center center;
+  background-size: cover;
+  float: left;
+  margin: 0px 50px 30px 0px;
+  shape-outside: circle(50%) margin-box;
+}
+.circle1:hover {
+  transform: scale(200%);
+  transition-duration: 1s;
+}
+
+.circle2 {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: url(images/kartell/gus.webp) center center;
+  background-size: cover;
+  float: right;
+  margin: 2px 0px 30px 50px;
+  shape-outside: circle(50%) margin-box;
+}
+.circle2:hover {
+  transform: scale(200%);
+  transition-duration: 1s;
+}
+
+.circle3 {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: url(images/kartell/Los_Pollos.webp) center center;
+  background-size: cover;
+  float: left;
+  margin: 0px 50px 30px 0px;
+  shape-outside: circle(50%) margin-box;
+}
+.circle3:hover {
+  transform: scale(200%);
+  transition-duration: 1s;
+}
+
+.circle4 {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: url(images/kartell/eladio3.jpg) center center;
+  background-size: cover;
+  float: right;
+  margin: 2px 0px 30px 50px;
+  shape-outside: circle(50%) margin-box;
+}
+.circle4:hover {
+  transform: scale(200%);
+  transition-duration: 1s;
+}
+
+.circle5 {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: url(images/kartell/Cousins_2004.webp) center center;
+  background-size: cover;
+  float: left;
+  margin: 0px 50px 30px 0px;
+  shape-outside: circle(50%) margin-box;
+}
+.circle5:hover {
+  transform: scale(200%);
+  transition-duration: 1s;
+}
+
+/*
 
 #asd {    animation-duration: 1s;
     animation-name: slidein;
