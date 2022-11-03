@@ -8,7 +8,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: playing;
 }
+    
+    @keyframes slidein {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
 
 .atlatszo{
     background-color: rgba(0, 0, 0, 0.527);
