@@ -1,65 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=Rubik:wght@300&display=swap");
 #navbar-logo {
-    width: 70px;
-}
-.kontener, .kontener2{
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: playing;
-}
-    
-    @keyframes slidein {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0%);
-      }
-    }
-    
-
-.atlatszo{
-    background-color: rgba(0, 0, 0, 0.527);
-    padding: 10px;
-    border-radius: 10px;
+  width: 70px;
 }
 
-#p-temavalasztas{
-    font-size: 28px;
+.kontener {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: playing;
 }
 
+@keyframes slidein {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 
-#bevezeto{
-    height: 80vh;
-    background-image: url("images/background.jpg");
-    background-size: cover;
-    overflow-x: hidden;
-    overflow-y: hidden;
+.atlatszo {
+  background-color: rgba(0, 0, 0, 0.389);
+  padding: 10px;
+  border-radius: 10px;
 }
-#alahuzas{text-decoration: underline;}
-.kep{ 
-    margin-left: auto;
-    width: auto;
-    display: block;
-    position: absolute;
-    
-    left: 0px;  
-  top: 0px;
-  z-index: -1;
+
+#p-bevezetes {
+  font-size: 28px;
 }
-#kep2{display: block;
-    margin-right: auto;}
-    
-.karakter{
-    border-radius: 2%;
+
+#bevezeto {
+  height: 90vh;
+  background-image: url("images/karakterek.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-#kar-leiras{
-    font-family: 'Jost', sans-serif;
-    font-size: 20px;
+
+.karakter {
+  border-radius: 2%;
 }
-table.fixed { table-layout:fixed; }
+
+#href {
+  text-decoration: none;
+}
+
+#nev {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+}
+
+#kar-leiras {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+}
