@@ -39,7 +39,9 @@ section,footer{
 #p-bevezetes {
   font-size: 28px;
 }
-#resz{padding-right: 1px;}
+form{width: 500px;
+  margin-left: 500px;}
+
 tr{padding-left: 10px;}
 #bevezeto {
   height: 90vh;
